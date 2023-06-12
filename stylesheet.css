@@ -1,0 +1,70 @@
+.container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "header header"
+    "main nav";
+}
+
+header {
+    grid-area: header;
+    background-color: mediumpurple;
+    padding: 1rem;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+    padding: 1rem;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+nav {
+    grid-area: nav;
+    background-color: rebeccapurple;
+    padding: 1rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 1rem;
+    margin-left: 0rem;
+	margin-right: 0rem;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+a:link,
+a:hover {
+    color: rgb(201, 158, 243);
+}   
+
+.superpowers {
+	display: flex;
+}
+
+.hamon {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	text-align: center;
+	background-color: mediumpurple;
+	margin-right: 1rem;
+	
+		
+}
+
+.stands {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	text-align: center;
+	background-color: mediumpurple;
+}
+
+    
